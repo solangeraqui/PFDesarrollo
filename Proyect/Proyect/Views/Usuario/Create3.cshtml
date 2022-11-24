@@ -1,0 +1,174 @@
+﻿@model IEnumerable<Proyect.Models.Product>
+@*@model Proyect.Models.VentaDetalle*@
+<html>
+
+<body>
+
+    <div class="panel-heading clearfix">
+        <strong>
+            <span class="glyphicon glyphicon-th"></span>
+            <span>Punto de venta</span>
+        </strong>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+
+            <div class="col-md-6">
+                <label>Producto</label>
+                <br>
+                <select class="select" id="select_product" style="width:100%">
+
+                    @foreach (var item in Model)
+                    {
+                        <option>
+
+                            @item.Nombre
+                            Precio:
+                            @item.PrecioVenta
+
+
+                        </option>
+                    }
+                </select>
+
+                @*<select class="form-control" id="select_product" asp-for="IdProducto" name="" asp-items='@(new SelectList(ViewBag.Prod,"IdProducto","Nombre"))'>
+                <option value="">(Seleccionar)</option>
+                </select>
+                <span asp-validation-for="IdProducto" class="text-danger"></span>*@
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Cantidad</label>
+                    <input asp="Cantidad" class="form-control" id="cantidad" placeholder="Cantidad">
+
+                </div>
+
+                @*<div class="form-group">
+                <label for="formGroupExampleInput2">Cantidad</label>
+                <input asp-for="Cantidad" class="form-control" id="cantidad" placeholder="Cantidad">
+                <span asp-validation-for="Cantidad" class="text-danger"></span>
+                </div>*@
+
+                <div class="col-md-2">
+                    <button id="agregarPrimero" class="btn btn-primary">Agregar</button>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading clearfix">
+                            <strong>
+                                <span class="glyphicon glyphicon-list-alt"></span>
+                                <span>Detalle de venta</span>
+                            </strong>
+                        </div>
+
+                        <div class="panel-body">
+
+                            <table id="table" class="table">
+                                <thead>
+                                <th>Nombre </th>
+                                <th>Cantidad </th>
+                                <th>Precio </th>
+                                <th>Precio Final </th>
+                                </thead >
+                                <tbody id="detalle">
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <br>
+                    <button class="btn btn-primary" id="agregar" name="Agregar" onclick="vender();">Agregar Venta</button>
+                </div>
+                <div class="col-md-4" style="text-align:center">
+                    <label>Total</label>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            $
+                        </span>
+                        <input type="text" class="form-control" name="total" id="total" value="0" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#agregarPrimero").click(function () {
+
+                var nombre = $('#select_product').val();
+
+                nombre = nombre.split("Precio:");
+
+                var nombreProduct = "<td>" + nombre[0] + "</td>";
+                var cantidadProduct = "<td>" + $('#cantidad').val() + "</td>";
+                var precioProduct = "<td>" + nombre[1] + "</td>";
+                var precioFinal = "<td>" + $('#cantidad').val() * nombre[1] + "</td>";
+                var tot = parseInt($('#total').val(), 10);
+                var Total = ($('#cantidad').val() * nombre[1]) + tot;
+                //alert(Total);
+                $('#detalle').append("<tr>" + nombreProduct + cantidadProduct + precioProduct + precioFinal + "</tr>");
+                $('#total').val(Total);
+
+                //$('#detalle').append(cantidadProduct);
+                //$('#detalle').append(precioProduct);
+                //$('#detalle').append(precioFinal);
+
+                //$('#cantidad').val();
+                //$('#descuento').val();
+                //$('#valor').val();
+                //$("#precio").val($('option:selected', this).data('valor'))
+                //$("#stock").val($('option:selected', this).data('cantidad'))
+                //cant = 1;
+                //valor = $('option:selected', this).data('valor');
+                //descuento = $('#descuento').val();
+
+            });
+            //$("#select_product").on("change", function () {
+            //    var nombreProduct = $('#select_product').val();
+            //    console.log(nombreProduct);
+            //    $.ajax({
+            //        type: "GET",                                              // tipo de request que estamos generando
+            //        url: '/Usuario/BuscarStock',
+            //        data: JSON.stringify(nombreProduct),
+
+            //        success: function (resultado) {                            // función que va a ejecutar si el pedido fue exitoso
+            //            alert(resultado);
+
+            //        },
+            //        error: function (XMLHttpRequest, textStatus, errorThrown) { // función que va a ejecutar si hubo algún tipo de error en el pedido
+
+            //            alert("llego aca");
+            //        }
+            //    });
+
+            //});
+
+
+
+
+
+        });
+
+
+    </script>
+
+</body>
+</html>

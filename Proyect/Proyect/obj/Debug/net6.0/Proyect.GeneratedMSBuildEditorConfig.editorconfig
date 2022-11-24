@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proyect
+build_property.RootNamespace = Proyect
+build_property.ProjectDir = D:\SOLANGE\USIL\2022-2\DESARROLLO BASADO EN PLATAFORMAS\mediologin\Proyect\Proyect\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SOLANGE\USIL\2022-2\DESARROLLO BASADO EN PLATAFORMAS\mediologin\Proyect\Proyect
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Boss/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Create2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Create3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/EditU.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0VS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/RegistroProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3Ryb1Byb2R1Y3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Usuario/Ventas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xWZW50YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOLANGE/USIL/2022-2/DESARROLLO BASADO EN PLATAFORMAS/mediologin/Proyect/Proyect/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iteeiisdfz
